@@ -30,6 +30,9 @@ module.exports = {
         'prymary':'#CC2D4A',
         'secondary':'#8FA206',
         'tertiary':'#61aec9'
+      },
+      fontFamily:{
+        montserrat:["Montserrat", "sans-serif"],
       }
     },
   },
