@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card{
+    @apply w-48 h-64 mt-5 shadow-md rounded-lg flex-none transition-all hover:-translate-y-4 hover:shadow-xl
+  }
+  .card-img{
+    @apply w-full h-3/5 bg-cover rounded-t-lg
+  }
+  .card-div-text{
+    @apply w-full h-2/5 rounded-b-lg
+  }
+  .card-div-text p:nth-child(1){
+    @apply py-2 font-bold text-xl px-4
+  }
+  .card-div-text p:nth-child(2){
+    @apply text-lg px-4
+  }
+}
