@@ -9,16 +9,86 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Mukta:wght@300;800&family=Russo+One&display=swap" rel="stylesheet">
   <title>Go Travel</title>
 </head>
-<body>
+<body class="font-montserrat">
   <nav>
 
   </nav>
+
   <div id="tab_bar"></div>
-  <section>
-    <div id="home"></div>
-    <div id="recomendadas"></div>
-    <div id="rentas_destacadas"></div>
+
+
+
+  <section class="w-full h-screen">
+
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+          <input class="outline-none rounded-full p-3 shadow-sm text-center transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="">
+          <button class="bg-white text-lg font-semibold text-prymary w-32 shadow-sm rounded-full py-2 px-4 transition-all duration-500 ease-in-out hover:bg-prymary hover:text-white hover:-translate-y-1 hover:scale-110">Explorar</button>
+        </div>
+        <div class="w-full h-full">
+          <img src="./img/sanFrancisco.jpg" alt="San Francisco">
+        </div>
+      </div>
+    </div><!--fin de home -->
+
+
+
+
+
+    <div class="p-6" id="recomendados">
+      <p class="text-3xl font-semibold text-prymary">Recomendados</p>
+      <div class="w-auto h-72 items-center mt-3 overscroll-x-contain overflow-x-auto flex space-x-6 overflow-y-hidden">
+        <div class="card">
+          <div class="bg-norway card-img"></div>
+          <div class="bg-secondary card-div-text">
+            <p class="text-white">Noruega</p>
+            <p class="text-white">Paisajes Increíbles</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="bg-NY card-img"></div>
+          <div class="card-div-text">
+            <p class="text-tertiary">New York</p>
+            <p class="text-tertiary">Jungla de concreto</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="bg-yosemite card-img"></div>
+          <div class="bg-secondary card-div-text">
+            <p class="text-white">Yosemite</p>
+            <p class="text-white">Un descanso del mundo</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="bg-seattle card-img"></div>
+          <div class="card-div-text">
+            <p class="text-tertiary">Seatle</p>
+            <p class="text-tertiary">Gran ciudad</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="bg-suiza card-img"></div>
+          <div class="bg-secondary card-div-text">
+            <p class="text-white">Suiza</p>
+            <p class="text-white">Gran ciudad</p>
+          </div>
+        </div>
+      </div>
+    </div><!--fin de recomendados -->
+
+    <div id="rentas_destacados">
+
+    </div><!--fin de destacados -->
+
   </section>
+
+
+
   <footer >
 
   </footer>
